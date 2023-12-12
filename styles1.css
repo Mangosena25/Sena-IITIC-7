@@ -1,0 +1,111 @@
+/* Reset de estilos para evitar problemas de compatibilidad entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #000; /* Texto en color negro */
+}
+
+header {
+    padding: 20px 0;
+    background: linear-gradient(to right, #111, #222);
+    color: #ffd700; /* Color dorado para el texto del encabezado */
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+    max-width: 60px;
+    border-radius: 50%;
+    border: 2px solid #ffd700; /* Borde dorado */
+}
+
+.logo h1 {
+    margin-top: 10px;
+    font-size: 36px;
+    color: #ffd700;
+}
+
+.navbar {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+    color: #000; /* Texto negro para los enlaces en el menú */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+}
+
+.section {
+    padding: 60px 0;
+    color: #000; /* Texto negro para las secciones */
+}
+
+.gallery,
+.video {
+    margin-top: 40px;
+}
+
+.footer {
+    background-color: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer h3 {
+    color: #ffd700;
+}
+
+.footer p,
+.footer a {
+    color: #aaa;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #eee;
+}
+
+/* Estilo adicional para la barra de búsqueda */
+.navbar input[type="search"]:focus {
+    background-color: #fff;
+    color: #111;
+    border-color: #ffd700;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: 2px solid #ffd700; /* Borde dorado para las tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.card-title {
+    color: #ffd700; /* Color dorado para los títulos de tarjetas */
+}
+
+.card-text {
+    color: #000; /* Texto negro para el contenido de tarjetas */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #ffd700; /* Color dorado para los controles del carrusel */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: #000; /* Cambio de color al pasar el mouse sobre los controles del carrusel */
+}
